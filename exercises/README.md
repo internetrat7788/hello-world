@@ -49,3 +49,33 @@ https://docs.anaconda.com/anaconda/
 https://docs.anaconda.com/anaconda/packages/pkg-docs/
 https://code.visualstudio.com/docs/python/tutorial-flask
 https://conda.io/projects/conda-build/en/latest/concepts/index.html
+
+day 3
+关于计算器编写过程:
+
+1. 开始的思路是输入需要2个输入, 无论是加减乘除,搜索了一下,应该是需要operators
+2. 后来发现需要定义一个数的类型是整数还是小数,这个在variable里有介绍
+3. 中间有很多debug问题,最后在讲有个一直没搞太明白,也不知道搜什么关键词的问题.
+4. 需要有条件的选择,如果是选了+法,应该 a+b ,如果是-就是a-b,所以用了if elif else conditional statements
+5. 最后就是function定义,def function():
+6. 测试运行了N次以后,发现可以加上大小写string.upper()来解决大小写选择问题.
+7. 然后加了一个again的function来询问用户需不需要再算一遍
+
+大框架就是:
+* 欢迎语言
+* 定义功能1,包括5种情况
+* 定义功能2,包括3种情况
+* 结束
+
+关于问题:
+语言的层级,在VS code里写了一个def function();下面一行必须要在呈现成子句子
+比如: 不能是以下这样:
+def again():
+cal_again = input('''
+
+得是这个样子:
+def again():
+      cal_again = input(‘''
+这个有什么规则么?
+
+关于材料LearnXinYminutes，WhereX=python3(中⽂文翻译版本)很多都没有用到,只能多练习来试试了
